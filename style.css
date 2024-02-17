@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+nav {
+    background-image: linear-gradient( to bottom in hsl shorter hue, rgb(84, 195, 250) , white 60% );
+}
+.bolla{
+    height: 100px;
+    width: 100px;
+    animation-name:animate__flipInY;
+}
+
+ @media screen and (max-width: 540px) {
+    .riga{
+        height:300px;
+    }
+} 
+
+.riga{
+    height:120px;
+}
+
+.cartas:hover{
+    animation-name:bounceInRight;
+}
+.titolo{
+    font-size: 100px;
+    color: blue;
+}
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
